@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Foo implements IFoo {
     private IBaz baz;
-    private List<IBar> bar = new ArrayList<>();
+    private List<IBar> bars = new ArrayList<>();
     private IQux qux;
     private ICorge corge;
 
@@ -18,7 +18,7 @@ public class Foo implements IFoo {
     }
 
     public List<IBar> getBar() {
-        return bar;
+        return bars;
     }
 
     public IQux getQux() {
@@ -38,6 +38,6 @@ public class Foo implements IFoo {
     // Methods
 
     public void addBar(IBar bar) {
-        this.bar.add(bar);
+        this.bars.add(bar);
     }
 }
