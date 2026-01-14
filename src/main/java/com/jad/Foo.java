@@ -17,7 +17,7 @@ public class Foo implements IFoo {
         return baz;
     }
 
-    public List<IBar> getBar() {
+    public List<IBar> getBars() {
         return bars;
     }
 
